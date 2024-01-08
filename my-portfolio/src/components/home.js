@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
-    <div>
+    <div className='container'>
       <nav className="navbar">
       <ul className="nav-list">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
         <li>
           <Link to="/projects">Projects</Link>
         </li>
@@ -21,7 +24,10 @@ const Home = () => {
       </ul>
     </nav>
       <h2>Welcome to My Portfolio</h2>
-      {/* Add more content as needed */}
+      <p>
+        Hi, I'm Melat Hailu, a passionate full-stack developer based in Addis Ababa, Ethiopia.
+      </p>
+      {/* Add more content */}
     </div>
   );
 };
