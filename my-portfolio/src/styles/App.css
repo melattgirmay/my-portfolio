@@ -1,9 +1,124 @@
-.container {
-    background-color: rgb(238, 238, 247);
-}
 .navbar {
-    background-color: #edbac9;
-    padding: 1rem;
+    margin: 4%;
+    background-color: #c1bd7b;
+    padding: 5px;
+    position: fixed;
+    left: 22%;
+    width: 50%;
+    z-index: 1000;
+    border-radius: 50px;
+    font-size: 10px;
+    box-shadow: 0 0.15rem 1rem rgb(255, 255, 255);
+  }
+
+  .bg-blue {
+    background-color: #3b82f6;
+    border-radius: 50px;
+  }
+  
+  .bg-dark-grey {
+    background-color: #2e3031;
+    border-radius: 50px;
+  }
+
+  .socials {
+    position: absolute;
+    bottom: 40%;
+    left: -125px;
+    z-index: 10;
+  }
+  .socials ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .socials ul li {
+    transition: 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+  }
+  .socials ul li a {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    padding: 15px 20px;
+  }
+  .socials ul li a i {
+    font-size: 1.75rem;
+    margin-left: 1.5rem;
+  }
+  .socials ul li:hover {
+    transform: translateX(115px);
+  }
+
+  .container {
+    margin: auto;
+  }
+
+  .education {
+  background: white;
+  padding-bottom: 3rem;
+
+}
+.education .container {
+  max-width: 900px;
+}
+.education .container h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 3rem;
+}
+.education .container .education-card {
+  box-shadow: 0 0.15rem 0.6rem rgb(26, 162, 220);
+  padding: 20px;
+  border-radius: 3px;
+}
+.education .container .education-card > *:last-child {
+  margin-top: 40px;
+}
+
+#projects {
+  margin: auto;
+  border-radius: 3px;
+  box-shadow: 0 0.15rem 2rem rgb(138, 138, 124);
+  width: 60%;
+}
+
+#skills {
+  border-radius: 3px;
+  box-shadow: 0 0.15rem 2rem rgb(179, 179, 169);
+  width: 60%; 
+  margin-top: 30px;
+}
+
+#student {
+  font-size: 20px;
+}
+
+#home {
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 5%;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0.15rem 2rem rgb(0, 0, 0);
+}
+
+  .content {
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+  }
+
+  ul {
+    list-style-type: none;
   }
   
   .nav-list {
@@ -12,7 +127,24 @@
     justify-content: space-around;
     padding: 0;
   }
-  
+
+  button {
+    width: 10%;
+    padding: 1%;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(245, 106, 129);
+    box-shadow: 0 0.15rem 1rem rgb(255, 255, 255);
+    margin: 1%;
+  }
+
+ 
+
+  a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+
   .nav-list li {
     margin: 0;
   }
@@ -23,7 +155,4 @@
     font-weight: bold;
   }
   
-  .content-container {
-    margin: 2rem;
-  }
-  
+
