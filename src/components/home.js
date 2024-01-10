@@ -17,6 +17,8 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
       <h1>Welcome to My Portfolio</h1>
       <div class="hero">
           <div data-aos="fade-up">
@@ -59,26 +61,22 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-        <h2 className="main-font">My<span className="text-blue main-font"> Projects</span></h2>
+      <br></br>
+        <h1 className="main-font">My<span className="text-blue main-font"> Projects</span></h1>
         <div className="project-row" data-aos="fade-up">
           <div className="project-left">
-            <img src="/img/cryptocrowd2.png" alt="" />
           </div>
           <div className="project-right">
-            <h3>CryptoCrowd Sentiment Analysis</h3>
+            <h2>Android Notes App</h2>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
-              <li><Icon icon="logos:aws" width="90" height="90" /></li>
-              <li><span className="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
-              <li><span className="iconify" data-icon="logos:react" data-inline="false"></span></li>
-              <li><span className="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
-              <li><span className="iconify" data-icon="logos:nodejs" data-inline="false"></span></li>
-              <li><span className="iconify" data-icon="logos:express" data-inline="false"></span></li>
+              <li><Icon icon="logos:java" width="40" height="40" /></li>
+              <li><Icon icon="carbon:xml" width="40" height="40" /></li>
+              <li><Icon icon="devicon:androidstudio-wordmark" width="40" height="40" /></li>
             </ul>
-            <p>Cryptocurrency sentiment analysis on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on tweets. Users can also view keywords and an average sentiment score. React frontend and Node.js backend. Stateless application that uses Elasticache and S3 on AWS for persistence. Application was setup with an autoscaling group to scale in and out as needed.</p>
+            <p>The Android Notes App is a versatile mobile application designed to streamline and enhance your note-taking experience on Android devices. This intuitive app allows users to create, edit, and manage notes effortlessly. Whether you're jotting down quick thoughts, keeping track of important information, or organizing your ideas, this app provides a user-friendly and efficient solution.</p>
             <div className="project-links">
-              <a href="https://www.youtube.com/watch?v=uhyC0M4WIl4" className="btn-blue btn-small hover-bg-light" target="_blank"> <i className="fab fa-youtube"></i> Demo</a>
-              <a href="https://github.com/ben04rogers/cab432-assignment-2" className="btn-blue-outline btn-small mx-1" target="_blank"> <i className="fab fa-github"></i
+              <a href="https://github.com/melattgirmay/Notes-Manager-Android-App.git" className="btn-blue-outline btn-small mx-1" target="_blank"> <i className="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -86,13 +84,12 @@ const Home = () => {
 
         <div className="project-row" data-aos="fade-up">
           <div className="project-left">
-            <img src="img/task-manager.png" alt="" />
           </div>
           <div className="project-right">
-            <h3>Task Manager Console App</h3>
+            <h2>Task Manager Console App</h2>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
-              <li><Icon icon="devicon:csharp" width="90" height="90" /></li>
+              <li><Icon icon="devicon:csharp" width="40" height="40" /></li>
             </ul>
             <p>Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.</p>
             <div className="project-links">
@@ -104,18 +101,16 @@ const Home = () => {
 
         <div className="project-row" data-aos="fade-up">
           <div className="project-left">
-            <img src="img/bfsproject.JPG" alt="" />
           </div>
           <div className="project-right">
-            <h3>Family Tree Shortest Path</h3>
+            <h2>Family Tree Shortest Path</h2>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
-              <li><span className="iconify" data-icon="logos:python" data-inline="false"></span></li>
+              <li><Icon icon="logos:python" width="40" height="40" /></li>
             </ul>
             <p>Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree.</p>
             <div className="project-links">
-              <a href="https://www.youtube.com/watch?v=VXCZKsqupxA" className="btn-blue btn-small hover-bg-light" target="_blank"> <i className="fab fa-youtube"></i> Demo</a>
-              <a href="https://github.com/ben04rogers/breadth-first-search" className="btn-blue-outline btn-small mx-1" target="_blank"> <i className="fab fa-github"></i
+              <a href="https://github.com/melattgirmay/breadth-first-search.git" className="btn-blue-outline btn-small mx-1" target="_blank"> <i className="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -123,6 +118,8 @@ const Home = () => {
       </div>
       
       <div className="container" data-aos="fade-in" id='skills'> 
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
@@ -145,6 +142,8 @@ const Home = () => {
       </div>
 
       <section id="education" class="education">
+      <br></br>
+      <br></br>
       <br></br>
       <br></br>
       <br></br>
