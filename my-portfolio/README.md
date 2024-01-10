@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melat Hailu's Portfolio Website</title>
+</head>
 
-## Available Scripts
+<body>
 
-In the project directory, you can run:
+    <h1>Melat Hailu's Portfolio Website</h1>
 
-### `npm start`
+    <p>Welcome to my personal portfolio website! This repository contains the source code for my portfolio showcasing
+        my skills, projects, and education background.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    <h2>About Me</h2>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    <ul>
+        <li>Hello, I'm Melat Hailu, a passionate full-stack developer based in Addis Ababa, Ethiopia.</li>
+        <li>I'm currently majoring in Computer Science at Unity University.</li>
+    </ul>
 
-### `npm test`
+    <h2>Features</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    <ol>
+        <li>
+            <strong>Skills Section:</strong>
+            <ul>
+                <li>Displays a list of technical skills with corresponding icons.</li>
+                <li>Icons are sourced from various technologies like JavaScript, React, PHP, Python, and more.</li>
+            </ul>
+        </li>
 
-### `npm run build`
+        <li>
+            <strong>Projects Section:</strong>
+            <ul>
+                <li>Showcases a collection of projects I have worked on.</li>
+                <li>Each project includes a brief description, technologies used, and links to GitHub or other relevant
+                    pages.</li>
+            </ul>
+        </li>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+        <li>
+            <strong>Education Section:</strong>
+            <ul>
+                <li>Highlights my educational background, such as my Bachelor's Degree in Computer Science at Unity
+                    University.</li>
+            </ul>
+        </li>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+        <li>
+            <strong>Contact Section:</strong>
+            <ul>
+                <li>Provides information on how to reach out to me.</li>
+                <li>Includes my email address for professional inquiries.</li>
+            </ul>
+        </li>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        <li>
+            <strong>Navbar:</strong>
+            <ul>
+                <li>Navigation bar with smooth scrolling to different sections of the website.</li>
+            </ul>
+        </li>
+    </ol>
 
-### `npm run eject`
+    <h2>How to Use</h2>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    <ol>
+        <li>Clone this repository:</li>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+        <pre>
+            <code>git clone https://github.com/your-username/your-portfolio.git</code>
+        </pre>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        <li>Open the project in your preferred development environment.</li>
+        <li>Customize the content in <code>Home.js</code> and other relevant components to add your personal details.
+        </li>
+        <li>Update the project images, descriptions, and links in the <code>Projects</code> component.</li>
+        <li>Adjust the navigation links in <code>Navbar.js</code> to match your section IDs.</li>
+        <li>Run the application and preview your portfolio locally.</li>
+    </ol>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    <h2>Technologies Used</h2>
 
-## Learn More
+    <ul>
+        <li>React.js</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    <h2>Author</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    <ul>
+        <li>Melat Hailu</li>
+        <li><a href="https://github.com/melattgirmay">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/melathailu/">LinkedIn</a></li>
+    </ul>
 
-### Code Splitting
+    <p>Feel free to fork this repository and customize it to create your own portfolio!</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    <hr>
 
-### Analyzing the Bundle Size
+    <p><strong>Note:</strong> This is a simple template, and you can expand upon it based on your project structure and
+        additional features. Include specific instructions if you have any setup steps or dependencies required for
+        your project.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</body>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</html>

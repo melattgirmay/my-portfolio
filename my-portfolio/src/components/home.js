@@ -44,10 +44,10 @@ const Home = () => {
         </div>
         <div class="socials" data-aos="fade-in"> 
           <ul>
-            <li class="bg-blue"><a href="https://www.linkedin.com/in/ben-rogers-dev"
+            <li class="bg-blue"><a href="https://www.linkedin.com/in/melathailu/"
               target="_blank"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i
             ></a></li>
-            <li class="bg-dark-grey"> <a href="https://github.com/ben04rogers"
+            <li class="bg-dark-grey"> <a href="https://github.com/melattgirmay"
               target="_blank"><span class="socials-text">GitHub</span><i class="fab fa-github fa-2x"></i
             ></a></li>
           </ul>
@@ -68,7 +68,7 @@ const Home = () => {
             <h3>CryptoCrowd Sentiment Analysis</h3>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
-              <li><span className="iconify" data-icon="logos:aws" data-inline="false"></span></li>
+              <li><Icon icon="logos:aws" width="90" height="90" /></li>
               <li><span className="iconify" data-icon="logos:javascript" data-inline="false"></span></li>
               <li><span className="iconify" data-icon="logos:react" data-inline="false"></span></li>
               <li><span className="iconify" data-icon="logos:bootstrap" data-inline="false"></span></li>
@@ -92,11 +92,11 @@ const Home = () => {
             <h3>Task Manager Console App</h3>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
-              <li><span className="iconify" data-icon="devicon:csharp" data-inline="false"></span></li>
+              <li><Icon icon="devicon:csharp" width="90" height="90" /></li>
             </ul>
             <p>Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.</p>
             <div className="project-links">
-              <a href="https://github.com/ben04rogers/task-manager" className="btn-blue-outline btn-small" target="_blank"> <i className="fab fa-github"></i
+              <a href="https://github.com/melattgirmay/Task-Manager-Console-App.git" className="btn-blue-outline btn-small" target="_blank"> <i className="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -139,7 +139,8 @@ const Home = () => {
           <li><Icon icon="vscode-icons:file-type-css" width="90" height="90" /><span>CSS</span></li>
           <li><Icon icon="logos:git-icon" width="90" height="90" /><span>Git</span></li>
           <li><Icon icon="logos:mysql" width="90" height="90" /><span>MySQL</span></li>
-          <li><Icon icon="flat-color-icons:linux" width="90" height="90" /><span>Linux</span></li>                    
+          <li><Icon icon="flat-color-icons:linux" width="90" height="90" /><span>Linux</span></li>
+          <li><Icon icon="devicon:csharp" width="90" height="90" /><span>C#</span></li>                     
         </ul>
       </div>
 
