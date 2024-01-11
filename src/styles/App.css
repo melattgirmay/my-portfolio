@@ -10,15 +10,12 @@
     font-size: 10px;
     box-shadow: 0 0.15rem 1rem rgb(255, 255, 255);
   }
-
-  .bg-blue {
-    background-color: cornflowerblue;
-    border-radius: 50px;
-  }
   
-  .bg-dark-grey {
+  .bg-dark-grey , .bg-blue {
     background-color: white;
     border-radius: 50px;
+    margin: 2px;
+    box-shadow: 0 0.15rem 1rem rgb(255, 255, 255);
   }
 
   .socials {
@@ -64,9 +61,7 @@
   padding-bottom: 3rem;
 
 }
-.education .container {
-  max-width: 900px;
-}
+
 .education .container h2 {
   text-align: center;
   color: black;
@@ -80,13 +75,20 @@
 .education .container .education-card > *:last-child {
   margin-top: 40px;
 }
+.education-card {
+  margin: auto;
+  background: rgba(26, 162, 220, 0.151);
+  width: 40%;
+  margin-bottom: 65px;
+}
 
-#projects {
+.project-row {
   margin: auto;
   border-radius: 3px;
-  box-shadow: 0 0.15rem 2rem rgb(138, 138, 124);
+  box-shadow: 0 0.15rem 2rem rgb(230, 230, 93);
   width: 60%;
   padding: 10px;
+  margin-bottom: 45px;
 }
 
 .skills-icons {
@@ -95,12 +97,11 @@
   margin: auto;
 }
 
-
 #student {
   font-size: 20px;
 }
 
-#home {
+#home , .skills-icons{
   margin: 5px;
   margin-bottom: 10px;
   padding-right: 5%;
@@ -111,6 +112,10 @@
   border: none;
   border-radius: 10px;
   box-shadow: 0 0.15rem 2rem rgb(0, 0, 0);
+}
+
+.skills-icons{
+  margin: auto;
 }
 
   .content {
@@ -182,8 +187,8 @@
   margin: 20px;
 }
 
-.skills-icons li:hover svg {
-  animation: spin 1s infinite linear;
+.skills-icons li svg {
+  animation: spin 4s infinite linear;
 }
 
 /* Define the spin animation */
@@ -199,7 +204,7 @@
   margin: auto;
   width: 225px; /* Adjust the width and height as needed */
   height: 225px;
-  box-shadow: 0 0.15rem 1rem rgb(220, 26, 26);
+  box-shadow: 0 0.15rem 1rem rgb(255, 0, 0);
   padding: 20px;
   border-radius: 50%;
   animation: bounce 1s infinite; /* Adjust the duration and animation type as needed */
@@ -208,12 +213,12 @@
 /* Define the bounce animation */
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0); /* Initial and final position */
+    transform: translateY(2); /* Initial and final position */
   }
   40% {
-    transform: translateY(-20px); /* Bounce up */
+    transform: translateY(-50px); /* Bounce up */
   }
   60% {
-    transform: translateY(-10px); /* Bounce down */
+    transform: translateY(-50px); /* Bounce down */
   }
 }

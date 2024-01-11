@@ -171,10 +171,10 @@ const Home = () => {
       <div class="container">
         <h2 class="main-font" data-aos="fade-in">Contact <span class="text-blue main-font">Me</span></h2>
 
-        <div class="education-card" data-aos="zoom-in">
-            <div class="education-card-column">
+        <div class="contact-card" data-aos="zoom-in">
+            <div class="conatct-card-column">
               <div class="card-column-large">
-                <h4 class="education-year">Email: melatgirmay20@gmail.com</h4>
+                <h4 >Email: melatgirmay20@gmail.com</h4>
                 <h4>Instagram: melattgirmay</h4>
                 <h4>Telegram: melattgirmay</h4>
               </div>
