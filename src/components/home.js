@@ -10,8 +10,7 @@ const Home = () => {
       <FontStyles />
       <div className="content">
       <div id="home">
-      <h2 id="welcome"></h2>
-      <br></br>
+      <br id="welcome"></br>
       <br></br>
       <br></br>
       <br></br>
@@ -47,10 +46,10 @@ const Home = () => {
         <div class="socials" data-aos="fade-in"> 
           <ul>
             <li class="bg-blue"><a href="https://www.linkedin.com/in/melathailu/"
-              target="_blank"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i
+              target="_blank" rel="noreferrer"><span class="socials-text">LinkedIn</span> <i class="fab fa-linkedin fa-2x"></i
             ></a></li>
             <li class="bg-dark-grey"> <a href="https://github.com/melattgirmay"
-              target="_blank"><span class="socials-text">GitHub</span><i class="fab fa-github fa-2x"></i
+              target="_blank" rel="noreferrer"><span class="socials-text">GitHub</span><i class="fab fa-github fa-2x"></i
             ></a></li>
           </ul>
         </div>
@@ -76,8 +75,8 @@ const Home = () => {
             </ul>
             <p>The Android Notes App is a versatile mobile application designed to streamline and enhance your note-taking experience on Android devices. This intuitive app allows users to create, edit, and manage notes effortlessly. Whether you're jotting down quick thoughts, keeping track of important information, or organizing your ideas, this app provides a user-friendly and efficient solution.</p>
             <div className="project-links">
-              <a href="https://github.com/melattgirmay/Notes-Manager-Android-App.git" className="btn-blue-outline btn-small mx-1" target="_blank"> <i className="fab fa-github"></i
-                > Code</a>
+              <a href="https://github.com/melattgirmay/Notes-Manager-Android-App.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github">
+                </i> Code</a>
             </div>
           </div>
         </div>
@@ -93,7 +92,7 @@ const Home = () => {
             </ul>
             <p>Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.</p>
             <div className="project-links">
-              <a href="https://github.com/melattgirmay/Task-Manager-Console-App.git" className="btn-blue-outline btn-small" target="_blank"> <i className="fab fa-github"></i
+              <a href="https://github.com/melattgirmay/Task-Manager-Console-App.git" className="btn-blue-outline btn-small" target="_blank" rel="noreferrer"> <i className="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
@@ -110,7 +109,7 @@ const Home = () => {
             </ul>
             <p>Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree.</p>
             <div className="project-links">
-              <a href="https://github.com/melattgirmay/breadth-first-search.git" className="btn-blue-outline btn-small mx-1" target="_blank"> <i className="fab fa-github"></i
+              <a href="https://github.com/melattgirmay/breadth-first-search.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github"></i
                 > Code</a>
             </div>
           </div>
