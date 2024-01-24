@@ -73,9 +73,32 @@ const Home = () => {
               <li><Icon icon="carbon:xml" width="40" height="40" /></li>
               <li><Icon icon="devicon:androidstudio-wordmark" width="40" height="40" /></li>
             </ul>
+            <div className="projectand-image">
+              <img src="/images/Screenshot (1294).png" alt="Project" width="180" height="300"/>
+            </div>
             <p>The Android Notes App is a versatile mobile application designed to streamline and enhance your note-taking experience on Android devices. This intuitive app allows users to create, edit, and manage notes effortlessly. Whether you're jotting down quick thoughts, keeping track of important information, or organizing your ideas, this app provides a user-friendly and efficient solution.</p>
             <div className="project-links">
               <a href="https://github.com/melattgirmay/Notes-Manager-Android-App.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github">
+                </i> Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div className="project-row" data-aos="fade-up">
+          <div className="project-right">
+            <h2>Flask to-do App</h2>
+            <ul className="tech-stack-list">
+              <p className="text-grey"><b>Made with: </b></p>
+              <li><Icon icon="devicon:flask" width="40" height="40" /></li>
+              <li><Icon icon="logos:html-5" width="40" height="40" /></li>
+              <li><Icon icon="logos:css-3" width="40" height="40" /></li>
+            </ul>
+            <div className="project-image">
+              <img src="/images/Screenshot (1292).png" alt="Project" width="200" height="200"/>
+            </div>
+            <p>The Android Notes App is a versatile mobile application designed to streamline and enhance your note-taking experience on Android devices. This intuitive app allows users to create, edit, and manage notes effortlessly. Whether you're jotting down quick thoughts, keeping track of important information, or organizing your ideas, this app provides a user-friendly and efficient solution.</p>
+            <div className="project-links">
+              <a href="https://github.com/melattgirmay/Tasked.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github">
                 </i> Code</a>
             </div>
           </div>
@@ -93,23 +116,6 @@ const Home = () => {
             <p>Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.</p>
             <div className="project-links">
               <a href="https://github.com/melattgirmay/Task-Manager-Console-App.git" className="btn-blue-outline btn-small" target="_blank" rel="noreferrer"> <i className="fab fa-github"></i
-                > Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="project-row" data-aos="fade-up">
-          <div className="project-left">
-          </div>
-          <div className="project-right">
-            <h2>Family Tree Shortest Path</h2>
-            <ul className="tech-stack-list">
-              <p className="text-grey"><b>Made with: </b></p>
-              <li><Icon icon="logos:python" width="40" height="40" /></li>
-            </ul>
-            <p>Python program that implements a breadth-first search algorithm to generate a minimal spanning tree. Problem was to calculate a shortest path from a starting vertex in a graph to each other vertex. The vertices represent people and each person is related to every other person through parent-child relationships. A person can see how they are related to each other person in the tree.</p>
-            <div className="project-links">
-              <a href="https://github.com/melattgirmay/breadth-first-search.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github"></i
                 > Code</a>
             </div>
           </div>

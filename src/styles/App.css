@@ -90,6 +90,17 @@
   margin-bottom: 45px;
 }
 
+.project-image {
+  max-width: 100%; /* Ensure the image doesn't exceed the container width */
+  border-radius: 10px;
+  overflow: hidden; /* Hide any overflowing parts of the image */
+}
+
+.project-image img {
+  width: 90%; /* Make the image fill its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .skills-icons {
   width: 55%; 
   margin-top: 30px;
@@ -188,6 +199,10 @@
 
 .skills-icons li svg {
   animation: spin 4s infinite linear;
+}
+
+p{
+  font-size: larger;
 }
 
 /* Define the spin animation */
