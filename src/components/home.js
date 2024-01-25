@@ -73,9 +73,6 @@ const Home = () => {
               <li><Icon icon="carbon:xml" width="40" height="40" /></li>
               <li><Icon icon="devicon:androidstudio-wordmark" width="40" height="40" /></li>
             </ul>
-            <div className="projectand-image">
-              <img src="/images/Screenshot (1294).png" alt="Project" width="180" height="300"/>
-            </div>
             <p>The Android Notes App is a versatile mobile application designed to streamline and enhance your note-taking experience on Android devices. This intuitive app allows users to create, edit, and manage notes effortlessly. Whether you're jotting down quick thoughts, keeping track of important information, or organizing your ideas, this app provides a user-friendly and efficient solution.</p>
             <div className="project-links">
               <a href="https://github.com/melattgirmay/Notes-Manager-Android-App.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github">
