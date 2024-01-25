@@ -87,7 +87,7 @@ const Home = () => {
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
               <li><Icon icon="devicon:flask" width="40" height="40" /></li>
-              <li><Icon icon="logos:html-5" width="40" height="40" /></li>
+              <li><Icon icon="devicon:mongodb-wordmark" width="40" height="40" /></li>
               <li><Icon icon="logos:css-3" width="40" height="40" /></li>
             </ul>
             <div className="project-image">
