@@ -96,7 +96,7 @@ const Home = () => {
             <div className="project-image">
               <img src="/images/Screenshot (1292).png" alt="Project" width="200" height="200"/>
             </div>
-            <p>The Android Notes App is a versatile mobile application designed to streamline and enhance your note-taking experience on Android devices. This intuitive app allows users to create, edit, and manage notes effortlessly. Whether you're jotting down quick thoughts, keeping track of important information, or organizing your ideas, this app provides a user-friendly and efficient solution.</p>
+            <p>This to-do app is a sleek and user-friendly web-based to-do application designed to streamline your task management experience. With its minimalist yet visually appealing interface, Taksed makes organizing your tasks a breeze.</p>
             <div className="project-links">
               <a href="https://github.com/melattgirmay/Tasked.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github">
                 </i> Code</a>
