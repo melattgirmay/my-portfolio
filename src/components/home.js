@@ -71,7 +71,7 @@ const Home = () => {
               <p className="text-grey"><b>Made with: </b></p>
               <li><Icon icon="devicon:react" width="40" height="40" /></li>
               <li><Icon icon="devicon:nodejs" width="40" height="40" /></li>
-              <li><Icon icon="devicon-mysql-plain" width="40" height="40" /></li>
+              <li><Icon icon="devicon:mysql" width="40" height="40" /></li>
             </ul>
             <div className="project-image">
               <img src="/images/Screenshot (1619).png" alt="Project" width="200" height="200"/>
