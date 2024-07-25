@@ -60,7 +60,6 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
         <h1 className="main-font">My<span className="text-blue main-font"> Projects</span></h1>
         <div className="project-row" data-aos="fade-up">
           <div className="project-left">
@@ -122,8 +121,6 @@ const Home = () => {
       </div>
       
       <div className="container" data-aos="fade-in" id='skills'> 
-      <br></br>
-      <br></br>
       <br></br>
       <br></br>
       <br></br>
