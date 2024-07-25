@@ -128,7 +128,6 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
         <h2 className="text-white main-font">Technical <span className="text-blue main-font">Skills</span></h2>
         <ul className="skills-icons">
           <li><Icon icon="logos:javascript" width="90" height="90" /><span>JavaScript</span></li>
