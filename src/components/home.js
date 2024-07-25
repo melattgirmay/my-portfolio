@@ -148,7 +148,6 @@ const Home = () => {
       <br></br>
       <br></br>
       <br></br>
-      <br></br>
       <div class="container">
         <h2 class="main-font" data-aos="fade-in">My <span class="text-blue main-font">Education</span></h2>
 
