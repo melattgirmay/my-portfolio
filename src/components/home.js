@@ -66,6 +66,23 @@ const Home = () => {
           <div className="project-left">
           </div>
           <div className="project-right">
+            <h2>Task Manager Console App</h2>
+            <ul className="tech-stack-list">
+              <p className="text-grey"><b>Made with: </b></p>
+              <li><Icon icon="devicon:csharp" width="40" height="40" /></li>
+            </ul>
+            <div className="project-image">
+              <img src="/images/Screenshot (1619).png" alt="Project" width="200" height="200"/>
+            </div>
+            <p>The Job Posting and Searching Platform provides a dedicated space for employers and job seekers to connect seamlessly.</p>
+            <div className="project-links">
+              <a href="https://github.com/melattgirmay/Job-Posting-and-Searching-Platform.git" className="btn-blue-outline btn-small" target="_blank" rel="noreferrer"> <i className="fab fa-github"></i
+                > Code</a>
+            </div>
+          </div>
+        </div>
+        <div className="project-row" data-aos="fade-up">
+          <div className="project-right">
             <h2>Android Notes App</h2>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
@@ -97,23 +114,6 @@ const Home = () => {
             <div className="project-links">
               <a href="https://github.com/melattgirmay/Tasked.git" className="btn-blue-outline btn-small mx-1" target="_blank" rel="noreferrer"> <i className="fab fa-github">
                 </i> Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="project-row" data-aos="fade-up">
-          <div className="project-left">
-          </div>
-          <div className="project-right">
-            <h2>Task Manager Console App</h2>
-            <ul className="tech-stack-list">
-              <p className="text-grey"><b>Made with: </b></p>
-              <li><Icon icon="devicon:csharp" width="40" height="40" /></li>
-            </ul>
-            <p>Console app that manages tasks in a project. Users can load projects from a file and generate a seqeuence to complete them in, based on each task's dependencies. Users can also find earliest possible commencement time of each task, add new tasks, update tasks, remove tasks, and save the results to a text file.</p>
-            <div className="project-links">
-              <a href="https://github.com/melattgirmay/Task-Manager-Console-App.git" className="btn-blue-outline btn-small" target="_blank" rel="noreferrer"> <i className="fab fa-github"></i
-                > Code</a>
             </div>
           </div>
         </div>
