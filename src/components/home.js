@@ -66,10 +66,12 @@ const Home = () => {
           <div className="project-left">
           </div>
           <div className="project-right">
-            <h2>Task Manager Console App</h2>
+            <h2>Job Posting and Searching Platform</h2>
             <ul className="tech-stack-list">
               <p className="text-grey"><b>Made with: </b></p>
-              <li><Icon icon="devicon:csharp" width="40" height="40" /></li>
+              <li><Icon icon="devicon:react" width="40" height="40" /></li>
+              <li><Icon icon="devicon:nodejs" width="40" height="40" /></li>
+              <li><Icon icon="devicon-mysql-plain" width="40" height="40" /></li>
             </ul>
             <div className="project-image">
               <img src="/images/Screenshot (1619).png" alt="Project" width="200" height="200"/>
